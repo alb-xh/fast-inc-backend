@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Astra",
+    "links": [
+      {
+        "to": "Luka",
+        "cost": 2
+      },
+      {
+        "to": "Nemo",
+        "cost": 1
+      },
+      {
+        "to": "Galaad",
+        "cost": 4
+      }
+    ]
+  },
+  {
+    "name": "Luka",
+    "links": [
+      {
+        "to": "Astra",
+        "cost": 2
+      }
+    ]
+  },
+  {
+    "name": "Nemo",
+    "links": [
+      {
+        "to": "Astra",
+        "cost": 1
+      },
+      {
+        "to": "Galaad",
+        "cost": 1
+      }
+    ]
+  },
+  {
+    "name": "Galaad",
+    "links": [
+      {
+        "to": "Astra",
+        "cost": 4
+      },
+      {
+        "to": "Nemo",
+        "cost": 1
+      }
+    ]
+  },
+  {
+    "name": "Amazing-Les-Bains",
+    "links": [
+      {
+        "to": "Ootal",
+        "cost": 2
+      }
+    ]
+  },
+  {
+    "name": "Ootal",
+    "links": [
+      {
+        "to": "Amazing-Les-Bains",
+        "cost": 2
+      }
+    ]
+  }
+]
